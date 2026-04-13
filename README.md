@@ -2,17 +2,17 @@
 
 Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 "USB Communications Device Class" Example. 
 
-This example is used for testing the USB port and demonstrates the CDC device software features.
+This example tests the USB port and demonstrates the CDC device's software features.
 
 <img src="images/rdk2_rev1.jpg" style="zoom:80%;" />
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v2025.4.0** [built with **v3.1**]
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.7** [built with **v3.1**]
 
 ## Supported toolchains (make variable 'TOOLCHAIN')
 
-- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
+- GNU Arm&reg; Embedded Compiler v14.2.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
 ## Using the code example
 
@@ -123,11 +123,11 @@ For a list of supported IDEs and more details, see the "Exporting to IDEs" secti
 
 ### Operation
 
-This example is used to test the USB peripheral. All the characters sent to the CDC port will be echoed back. 
+This example tests the USB peripheral. All the characters sent to the CDC port will be echoed back. 
 
 ### Debugging
 
-If you have successfully imported the example, the debug configurations are already prepared to use with the KitProg3, MiniProg4. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait until the programming completes and the debugging starts.
+If you have successfully imported the example, the debug configurations are already prepared to use with the KitProg3 and MiniProg4. Open the ModusToolbox perspective and find the Quick Panel. Click the desired debug launch configuration and wait until programming completes and debugging starts.
 
 <img src="images/cdc_debug.png" style="zoom:100%;" />
 
